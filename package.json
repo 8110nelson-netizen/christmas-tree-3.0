@@ -1,7 +1,7 @@
 {
-  "name": "arix-signature-interactive-christmas-tree",
+  "name": "christmas-tree-3.0",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,20 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1",
-    "@react-three/fiber": "^9.4.2",
-    "@react-three/drei": "^10.7.7",
-    "three": "^0.181.2",
-    "lucide-react": "^0.556.0",
-    "@react-three/postprocessing": "^3.0.4",
-    "postprocessing": "^6.38.0",
-    "three-stdlib": "^2.36.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.160.0",
+    "@react-three/fiber": "^8.13.0",
+    "@react-three/drei": "^9.101.0",
+    "lucide-react": "^0.406.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "typescript": "^5.3.3",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "vite": "^5.0.2",
+    "@vitejs/plugin-react": "^4.2.0"
   }
 }
